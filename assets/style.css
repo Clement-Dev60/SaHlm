@@ -1,0 +1,56 @@
+:root {
+    /* Couleurs principales */
+    --green: #41a62a;
+    --grey: #87888a;
+    --black: #000000;
+    /* Couleurs secondaires*/
+    --orange: #e75113;
+    --cherry: #99121a;
+    --earth: #542e08;
+    --sand: #957755;
+    --purple: #622181;
+    --cyan: #1bbbe9;
+    --duck-blue: #00978f;
+    --gold-yellow: #f6a800;
+    --fir: #497c29;
+    --pink: #e3007a;
+    --dark-grey: #5f6062;
+    --apple-green: #97bf0d;
+    /* Taille de typo */
+    --title: 4rem;
+    --title2: 2rem;
+    --title3: 1.5rem;
+    --paragraph: 1rem;
+    --subtitle: 0.5rem;
+    /* Graisse de texte */
+    --regular: 400;
+    --big-regular: 600;
+    --semi-bold: 800;
+    --bold: 1000;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: var(--green);
+    font-size: var(--title);
+    font-weight: var(--bold);
+}
+
+h2 {
+    color: var(--green);
+    font-size: var(--title2);
+    font-weight: var(--semi-bold);
+}
+h3 {
+    color: var(--green);
+    font-size: var(--title3);
+    font-weight: var(--big-regular);
+}
+p {
+    color: var(--green);
+    font-size: var(--paragraph);
+    font-weight: var(--regular);
+}
