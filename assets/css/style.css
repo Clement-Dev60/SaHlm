@@ -17,11 +17,10 @@
     --dark-grey: #5f6062;
     --apple-green: #97bf0d;
     /* Taille de typo */
-    --title: 4rem;
-    --title2: 2rem;
-    --title3: 1.5rem;
-    --paragraph: 1rem;
-    --subtitle: 0.5rem;
+    --title: 24px;
+    --title2: 20px;
+    --paragraph: 16px;
+    --subtitle: 8px;
     /* Graisse de texte */
     --regular: 400;
     --big-regular: 600;
@@ -30,7 +29,7 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
 }
 
 h1 {
@@ -43,11 +42,6 @@ h2 {
     color: var(--green);
     font-size: var(--title2);
     font-weight: var(--semi-bold);
-}
-h3 {
-    color: var(--green);
-    font-size: var(--title3);
-    font-weight: var(--big-regular);
 }
 p {
     color: var(--green);
