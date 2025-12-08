@@ -96,7 +96,7 @@ p {
 	padding: 12px;
 }
 
-img {
+.icon {
 	width: 18px;
 	height: auto;
 }
@@ -230,7 +230,7 @@ img {
 		padding: 15px;
 	}
 
-	img {
+	.icon {
 		width: 20px;
 	}
 }

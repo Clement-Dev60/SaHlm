@@ -1,0 +1,94 @@
+:root {
+	/* Couleurs principales */
+	--green: #41a62a;
+	--grey: #87888a;
+	--black: #000000;
+	/* Couleurs secondaires*/
+	--orange: #e75113;
+	--cherry: #99121a;
+	--earth: #542e08;
+	--sand: #957755;
+	--purple: #622181;
+	--cyan: #1bbbe9;
+	--duck-blue: #00978f;
+	--gold-yellow: #f6a800;
+	--fir: #497c29;
+	--pink: #e3007a;
+	--dark-grey: #5f6062;
+	--apple-green: #97bf0d;
+	/* Taille de typo */
+	--title-desktop: 32px;
+	--title: 24px;
+	--title2: 20px;
+	--paragraph: 16px;
+	--subtitle: 12px;
+	/* Graisse de texte */
+	--regular: 400;
+	--big-regular: 600;
+	--semi-bold: 800;
+	--bold: 1000;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.login-container {
+	width: 500px;
+	background: #fff;
+	border-radius: 4px;
+	padding: 60px 50px 80px;
+	text-align: center;
+}
+
+.logo-connect {
+	width: 400px;
+}
+
+label {
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+input {
+	width: 100%;
+	padding: 14px 16px;
+	border-radius: 8px;
+	border: 2px solid var(--apple-green);
+    box-shadow:
+      0 0 10px rgba(0, 0, 0, 0.22), 
+      0 0 5px rgba(0, 0, 0, 0.18); 
+	font-size: 18px;
+	outline: none;
+	transition: 0.2s;
+}
+
+input:focus {
+	border-color: #76a845;
+}
+
+button {
+	margin-top: 100px;
+	background: var(--green);
+	color: #fff;
+	padding: 16px 40px;
+	border: none;
+	font-size: 20px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+button:hover {
+	background: #4e8d33;
+}

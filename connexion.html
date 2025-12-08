@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/connexion.css">
     <title>Connexion</title>
 </head>
-<body>
 
+<body>
+    <div class="login-container">
+        <img class="logo-connect" src="assets/images/logo sa gris.png" alt="">
+        <form class="loginForm">
+            <label>Identifiant:</label>
+            <input type="text">
+
+            <label style="margin-top:30px;">Mot de passe:</label>
+            <input type="password">
+
+            <button>Se connecter</button>
+        </form>
+    </div>
+    <div id="msg"></div>
 </body>
+<script src="assets/js/connexion.js"></script>
+
 </html>
