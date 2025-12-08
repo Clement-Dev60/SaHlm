@@ -1,5 +1,5 @@
-Textes {
-  textes = {
+export const text = {
+  texte: {
     Axe_I: {
       titre: `Boite à outils d’intervention pour répondre aux actes d’incivilités et de nuisances dans le cadre de la gestion de la SA HLM`,
       descriptif: `Les atteintes à la tranquillité des espaces collectifs : environnement, propreté et nuisance`,
@@ -16,7 +16,7 @@ Textes {
               qualification: `Le fait de « déposer, d’abandonner, de jeter ou de déverser, en lieu public ou privé, à l’exception des emplacements désignés à cet effet […] des ordures, déchets, déjections, matériaux, liquides insalubres, ou tout autre objet de quelque nature qu’il soit » constitue une contravention de 2ème classe (pouvant aller jusqu’à 150 € d’amende).
               « Est puni de l'amende prévue pour les contraventions de la 5e classe le fait de déposer, d'abandonner, de jeter ou de déverser, en lieu public ou privé, à l'exception des emplacements désignés à cet effet par l'autorité administrative compétente » Article R635-8 du Code Pénal.
               La responsabilité civile peut être mise en cause s’il en résulte un dommage aux tiers (article 1384 du Code Civil).`,
-              procédure: `D’abord: Prendre des mesures d’urgence et des dispositions d’enlèvement si nécessaire et si cela provoque un danger immédiat (produit contondants, produits toxiques, etc.)
+              procedure: `D’abord: Prendre des mesures d’urgence et des dispositions d’enlèvement si nécessaire et si cela provoque un danger immédiat (produit contondants, produits toxiques, etc.)
               En cas de découverte de matières ou d’objets dangereux, ne pas les toucher et prévenir le Manager de Proximité responsable du secteur afin de prévenir la Police pour constater les infractions (présence de produits stupéfiants ou autres dépôts dangereux et illégaux)
               Prévenir la Mairie si les détritus ou les objets sont déposés sur l’espace public.
               Si possible, recueillir des témoignages et/ou identifier les objets déposés pour identifier la/les personnes responsables.
@@ -37,7 +37,7 @@ Textes {
 
               Les propriétaires ou détenteurs de chiens ont l’obligation de ramasser immédiatement les déjections canines en utilisant un moyen approprié, quel que soit l’endroit concerné sur le domaine public communal.`,
               qualification: `L'article R. 635-8 prévoit une sanction par une amende de la 2ᵉ classe (68€) pour toute personne déposant, abandonnant, jetant ou déversant, dans un lieu public ou privé, des ordures, déchets, déjections, matériaux, liquides insalubres ou tout autre objet, quelle qu’en soit la nature.`,
-              procédure: `D’abord:
+              procedure: `D’abord:
 
               Rappeler les règles sur l’importance de maintenir les lieux propres.
 
@@ -76,10 +76,10 @@ Textes {
                   qualification: `Le stationnement gênant est une infraction selon l'article R417-10 du Code de la route. Il s'agit d'un stationnement qui, sans bloquer totalement le passage, rend la circulation plus difficile pour les autres usagers (piétons, cyclistes, véhicules). Cette infraction peut être sanctionnée par une amende de 2ᵉ classe, soit 35 €. Le stationnement sur des places réservées (places pour personnes handicapées, places de livraison, etc.) sans avoir droit de les occuper constitue une infraction, régie par l'article R417-11 du Code de la route, avec une amende de 135 €.`,
                 },
               ],
-              procédure: {
+              procedure: {
                 patrimoine: {
                   titre:
-                    "PROCÉDURE (Véhicules identifiables sur le patrimoine)",
+                    "procedure (Véhicules identifiables sur le patrimoine)",
                   etapes: `D’abord : Identifier le propriétaire du véhicule via les voisins, ou par la police ou la municipalité. Prendre contact avec lui dans un premier temps pour déplacer le véhicule. Puis :
                   ==> Si le premier contact avec l’auteur n’a pas abouti :
                   - Envoi d’un courrier de rappel du règlement si locataire de la S.A- notamment les règles de stationnement et d’utilisation des espaces communs – et du délai de retrait du véhicule.
@@ -90,7 +90,7 @@ Textes {
                 },
                 proximite: {
                   titre:
-                    "PROCÉDURE (Véhicules identifiables à proximité du patrimoine)",
+                    "procedure (Véhicules identifiables à proximité du patrimoine)",
                   etapes: `D’abord : Signalez la situation aux autorités afin qu’ils vérifient si le véhicule appartient à un locataire de la S.A. HLM de l’Oise ou s’il s’agit d’un véhicule extérieur. Puis : Si le véhicule appartient à un locataire de la SA, il faut contacter le locataire pour lui rappeler les règles de stationnement et les conséquences d’un stationnement gênant.`,
                 },
               },
@@ -100,7 +100,7 @@ Textes {
               descriptif: `Les travaux sauvages de mécanique désignent des réparations ou modifications de véhicules effectuées sans autorisation, dans des lieux inappropriés, et souvent en violation des règles de sécurité, d’environnement ou de voisinage. Il est interdit de procéder à des travaux d’entretien, de graissage, de vidange et de réparation de véhicules sur la voie publique et notamment sur les parkings publics.
                Seuls sont autorisés les dépannages destinés à permettre au véhicule de poursuivre sa route comme un changement de roue, de batterie.`,
               qualification: `La pratique de la mécanique sauvage est passible d'une amende pouvant aller jusqu'à 135 € en cas de déversement de liquide insalubre hors des emplacements autorisés.`,
-              procédure: `D’abord : Effectuer un rappel à l’ordre sur l'interdiction des travaux sauvages, et ordonner l'évacuation des équipements si ces derniers sont en cours d'utilisation. Puis :
+              procedure: `D’abord : Effectuer un rappel à l’ordre sur l'interdiction des travaux sauvages, et ordonner l'évacuation des équipements si ces derniers sont en cours d'utilisation. Puis :
               ==> Si l’auteur des faits est locataire de la SA HLM de l’Oise :
               - Envoi d’un courrier de rappel du règlement au locataire en titre par l’agence ;
               - Envoi d’un courrier de mise en demeure.
@@ -116,10 +116,10 @@ Textes {
               titre: `Nuisances sonores, bruits et tapages injurieux ou nocturnes`,
               descriptif: `De jour ou de nuit, les nuisances sonores constituent des faits répréhensibles punis par la loi. Ils peuvent être liés au fonctionnement d’appareils ménagers, aboiements de chiens, écoute prolongée et à haut volume de musique, et autres modes d’habiter. Le caractère excessif du bruit est une notion subjective, c’est pourquoi l’anormalité du trouble est laissée à la libre appréciation du juge, qui prend en considération la durée, l’intensité et les horaires des nuisance.`,
               qualification: `« Aucun bruit particulier ne doit, par sa durée, sa répétition ou son intensité, porter atteinte à la tranquillité du voisinage ou à la santé de l’homme, dans un lieu public ou privé, qu’une personne en soit elle-même à l’origine ou que ce soit par l’intermédiaire d’une personne, d’une chose dont elle a la garde ou d’un animal placé sous sa responsabilité » - Article R1334-31 du Code la Santé Publique. Le tapage constitue une contravention de 3ème classe (art. R623-2 CP) correspondant à une amende pouvant aller jusqu’à 450 € ; néanmoins, il reste très souvent très difficile à établir.`,
-              procédure: `D’abord :
+              procedure: `D’abord :
               - Inviter le locataire à prendre contact avec son voisin, pour évoquer le trouble.
               - Si réitération, informer le locataire des différentes possibilités en matière de médiation : conciliateur de justice, services médiations…
-              - En cas d’ouverture d’une réclamation, la gestion du trouble revient au MP pour mettre en place la procédure de TDV.
+              - En cas d’ouverture d’une réclamation, la gestion du trouble revient au MP pour mettre en place la procedure de TDV.
               - Si la gestion du trouble primaire n’aboutit pas, la réclamation est transférée au Pôle DSU.`,
             },
             b: {
@@ -131,12 +131,12 @@ Textes {
               • Obligation d'obtenir une attestation d’aptitude.
               • Obligation de soumettre tout chien âgé de plus de huit mois et de moins de 12 mois à une évaluation comportementale.
               • Obligation de détenir un permis de détention, délivré par le maire de la commune de résidence du propriétaire ou détenteur. Le fait d'exposer directement autrui à un risque immédiat de mort ou de blessures de nature à entraîner une mutilation ou une infirmité permanente par la violation manifestement délibérée d'une obligation particulière de prudence ou de sécurité imposée par la loi ou le règlement est puni d'un an d'emprisonnement et de 15 000 euros d'amende. (article 223-1 du NCP).`,
-              procédure: `D’abord : Prendre l'initiative d'engager un dialogue avec le locataire concerné. Cela implique de rencontrer le locataire pour comprendre la situation, de lui rappeler les règles en matière de détention d'animaux dans le logement, et de lui expliquer l’impact des nuisances sonores sur les voisins.
+              procedure: `D’abord : Prendre l'initiative d'engager un dialogue avec le locataire concerné. Cela implique de rencontrer le locataire pour comprendre la situation, de lui rappeler les règles en matière de détention d'animaux dans le logement, et de lui expliquer l’impact des nuisances sonores sur les voisins.
               ==> Il peut être suggéré au locataire de consulter un professionnel (éducateur canin ou comportementaliste) pour résoudre les problèmes d’aboiements excessifs ou d’autres comportements nuisibles ou de trouver une solution de placement pour son animal.
               ==> Depuis les lois de 1999, 2001 et 2008, le pouvoir de police du maire en matière de chiens dangereux est renforcé, et pour cette raison le maire doit être au courant de la présence de chiens supposés de 1ère ou 2ème catégorie sur sa commune. Si c’est un chien dangereux, il faut aller demander au maire s’il est au courant de sa présence. Ensuite : Le personnel de proximité peut appeler la police municipale/police nationale/gendarmerie pour qu’ils interviennent immédiatement selon l’urgence.
               ==> Si nécessaire, il peut procéder à un constat d’huissier quant au non-respect des conditions d’hygiène et de sécurité, notamment en cas de détention d’un nombre important d’animaux dans un même logement.
               ==> Il peut saisir les autorités compétentes telles que les services vétérinaires, les SPA ou Direction Départementale de Protection des Populations de l’Oise.
-              ==> Il peut enclencher une procédure de résiliation de bail. Puis :
+              ==> Il peut enclencher une procedure de résiliation de bail. Puis :
               ==> Mettre en oeuvre des actions pour sensibiliser le locataire aux effets des bruits sur la qualité de vie des voisins, sur les sites particulièrement touchés.
               ==> Mettre en oeuvre des actions sensibilisantes au respect de toutes les obligations légales liées à la détention d’animaux dits « dangereux », sur les sites particulièrement touchés.
               ==> Si l’auteur des faits est locataire de la SA HLM de l’Oise :
@@ -155,11 +155,11 @@ Textes {
                   titre: `Qualification juridique du Squat`,
                   continue: {
                     titre: `Occupation Continue`,
-                    qualification: `Depuis la loi anti-squat du 27 juillet 2023, le squat d’un logement, qu’il soit la résidence principale ou secondaire du propriétaire, est considéré comme une violation de domicile (article 226-4 du Code pénal). Cela signifie que le propriétaire peut demander une expulsion accélérée en 48h par la préfecture (procédure administrative sans passage devant un juge). Les squatteurs risquent jusqu’à 3 ans de prison et 45 000 € d’amende. Si l'intrusion se fait par la force, la menace ou la contrainte dans le domicile d'autrui, le propriétaire ou le locataire peut demander au préfet d'ordonner l'expulsion de l'occupant en moins de 24h (article 38 de la loi du 5 mars 2007). Il n’y a pas de trêve hivernale pour les squatteurs en continue. De plus, la trêve hivernale ne s’applique pas en cas d’intrusion violente (article L.412-6).`,
+                    qualification: `Depuis la loi anti-squat du 27 juillet 2023, le squat d’un logement, qu’il soit la résidence principale ou secondaire du propriétaire, est considéré comme une violation de domicile (article 226-4 du Code pénal). Cela signifie que le propriétaire peut demander une expulsion accélérée en 48h par la préfecture (procedure administrative sans passage devant un juge). Les squatteurs risquent jusqu’à 3 ans de prison et 45 000 € d’amende. Si l'intrusion se fait par la force, la menace ou la contrainte dans le domicile d'autrui, le propriétaire ou le locataire peut demander au préfet d'ordonner l'expulsion de l'occupant en moins de 24h (article 38 de la loi du 5 mars 2007). Il n’y a pas de trêve hivernale pour les squatteurs en continue. De plus, la trêve hivernale ne s’applique pas en cas d’intrusion violente (article L.412-6).`,
                   },
                   occasionnelle: {
                     titre: `Occupation Occasionnelle`,
-                    descriptif: `Depuis la loi anti-squat du 27 juillet 2023, le squat d’un logement, qu’il soit la résidence principale ou secondaire du propriétaire, est considéré comme une violation de domicile (article 226-4 du Code pénal). Cela signifie que le propriétaire peut demander une expulsion accélérée en 48h par la préfecture (procédure administrative sans passage devant un juge) . Les squatteurs risquent jusqu’à 3 ans de prison et 45 000 € d’amende. Logement inoccupé : selon l'article 315-1 du Code pénal, si les squatteurs n’occupent pas le logement de manière permanente, il peut être plus difficile de prouver un squat continu. Dans ce cas, l’expulsion devra passer par une procédure judiciaire, ce qui peut allonger les délais. Le juge pourra également ordonner une refermeture des accès afin d’éviter un éventuel retour des squatteurs. Les sanctions encourues pour une occupation illégale sont de jusqu’à 2 ans de prison et 30 000 € d’amende.`,
+                    descriptif: `Depuis la loi anti-squat du 27 juillet 2023, le squat d’un logement, qu’il soit la résidence principale ou secondaire du propriétaire, est considéré comme une violation de domicile (article 226-4 du Code pénal). Cela signifie que le propriétaire peut demander une expulsion accélérée en 48h par la préfecture (procedure administrative sans passage devant un juge) . Les squatteurs risquent jusqu’à 3 ans de prison et 45 000 € d’amende. Logement inoccupé : selon l'article 315-1 du Code pénal, si les squatteurs n’occupent pas le logement de manière permanente, il peut être plus difficile de prouver un squat continu. Dans ce cas, l’expulsion devra passer par une procedure judiciaire, ce qui peut allonger les délais. Le juge pourra également ordonner une refermeture des accès afin d’éviter un éventuel retour des squatteurs. Les sanctions encourues pour une occupation illégale sont de jusqu’à 2 ans de prison et 30 000 € d’amende.`,
                   },
                 },
                 vol: {
@@ -173,13 +173,13 @@ Textes {
                 6. Vol avec meurtre (Article 221-1) : Réclusion criminelle à perpétuité.`,
                 },
               },
-              procédure: `D’abord :
-               Constater la situation sans engager de confrontation directe :
+              procedure: `D’abord :
+              => Constater la situation sans engager de confrontation directe :
               o Si des personnes sont présentes dans le logement, il est impératif de se mettre en retrait immédiatement et d’appeler le 17 (police ou gendarmerie).
               o Se faire identifier clairement en annonçant : "C'est la venue de la S.A HLM de l’Oise". Ensuite :
-              • Engager la procédure d’expulsion : porter plainte et engager la procédure judiciaire d’expulsion avec la préfecture et la direction juridique.
+              • Engager la procedure d’expulsion : porter plainte et engager la procedure judiciaire d’expulsion avec la préfecture et la direction juridique.
               • Sécuriser les lieux : faire poser rapidement une fermeture sécurisée (porte, cadenas, planche en bois…) avec une entreprise.
-               S’il y a un vol pendant un squat : le propriétaire du bien volé doit déposer plainte auprès des forces de l'ordre, que l’auteur du vol soit identifié ou non. Ensuite, le sinistre doit être déclaré aux assureurs, aussi bien par le locataire que par le bailleur, selon la situation. Cette déclaration permet d’engager une demande d’indemnisation pour couvrir à la fois le vol des biens et les dommages matériels causés lors de l’effraction. Enfin :
+              => S’il y a un vol pendant un squat : le propriétaire du bien volé doit déposer plainte auprès des forces de l'ordre, que l’auteur du vol soit identifié ou non. Ensuite, le sinistre doit être déclaré aux assureurs, aussi bien par le locataire que par le bailleur, selon la situation. Cette déclaration permet d’engager une demande d’indemnisation pour couvrir à la fois le vol des biens et les dommages matériels causés lors de l’effraction. Enfin :
               • Assurer une veille régulière sur l’ensemble de son patrimoine bâti et foncier (notamment sur les bâtiments concernés par des opérations de relogement).
               • Mettre en oeuvre des actions de sensibilisation sur les sites particulièrement touchés.
               • Mettre en garde les locataires sur l’importance de restreindre l’accès au bâtiment aux personnes extérieures et de bien fermer la porte derrière eux avec l’envoi d’un courrier spécifique.`,
@@ -188,12 +188,12 @@ Textes {
               titre:
                 "Dépôt d’armes, de produits stupéfiants et d’objets dangereux",
               descriptif: `Les parties communes des immeubles, telles que les couloirs, les paliers, les colonnes, les caves ou les halls, peuvent parfois être détournées de leur usage normal et utilisées pour des activités illégales telles que le stockage, la consommation ou la cession de produits stupéfiants et d’objets dangereux (armes, seringues, produits chimiques, peinture, décapant, javel etc.). La présence de ces éléments constitue non seulement un risque immédiat pour la sécurité et la santé des autres habitants, mais aussi un danger environnemental, en raison des problèmes d’hygiène, des mauvaises odeurs, et des risques de toxicité.
-               Ces situations demandent donc une vigilance accrue et une réactivité rapide de la part du bailleur.`,
+              => Ces situations demandent donc une vigilance accrue et une réactivité rapide de la part du bailleur.`,
               qualification: `La loi impose au bailleur une obligation de sécurité. En cas de négligence dans l’enlèvement de substances dangereuses (produits chimiques, armes, ou stupéfiants), le bailleur peut voir sa responsabilité pénale engagée. L'article L129-4-1 du Code de la construction et de l’habitation précise que le bailleur doit assurer la sécurité de son bien et de ses occupants, sous peine de sanctions. En ce qui concerne spécifiquement les produits stupéfiants, l'article 222-34 du Code pénal et l'article L.3421-1 du Code de la santé publique détaillent les peines encourues pour la production, la fabrication, l’importation, l’exportation, le transport, la détention, l’offre, la cession, l’acquisition, l’emploi illicite et l’usage de stupéfiants. Les peines peuvent aller de 1 an d’emprisonnement et 3 750 € d’amende, jusqu’à la réclusion criminelle à perpétuité pour les infractions les plus graves. Le dépôt ou la mise à disposition de produits dangereux, comme des produits chimiques, seringues, ou autres objets pouvant présenter un danger pour la sécurité publique, peut entraîner des peines d'emprisonnement et des amendes. Si ces objets sont utilisés pour nuire à autrui ou causer des dommages, cela peut être puni de 2 à 5 ans de prison et d’amendes pouvant aller jusqu’à 75 000 €. L’infraction est considérée comme mise en danger d’autrui ou infraction à la sécurité publique (articles 222-19 et suivants du Code pénal). Le dépôt d'une arme dans un lieu accessible au public peut également être considéré comme une mise en danger d’autrui, une infraction punie d’une peine de prison (jusqu’à 5 ans) et d’une amende pouvant atteindre 75 000 €.`,
-              procédure: `D’abord : Dès la découverte d'objets ou de produits dangereux tels que des seringues ou des produits chimiques, le bailleur doit intervenir immédiatement en veillant à respecter des conditions d’hygiène et de sécurité strictes, sans toucher les produits suscités.
+              procedure: `D’abord : Dès la découverte d'objets ou de produits dangereux tels que des seringues ou des produits chimiques, le bailleur doit intervenir immédiatement en veillant à respecter des conditions d’hygiène et de sécurité strictes, sans toucher les produits suscités.
               ==> Sécuriser le lieu et informer son n+1.
               ==> Appeler la police/gendarmerie, en fonction des retours. Attendre les consignes en coordination avec le n+1, pour la remise des objets. Ensuite : En cas de trafic de stupéfiants avéré, si des locataires sont impliqués, cela constitue un trouble à l’ordre public et un trouble à la jouissance paisible du logement.
-              ==> Le bailleur peut alors engager une procédure de résiliation de bail, ce qui peut aboutir à l'expulsion des locataires impliqués dans ces activités illégales. Puis :
+              ==> Le bailleur peut alors engager une procedure de résiliation de bail, ce qui peut aboutir à l'expulsion des locataires impliqués dans ces activités illégales. Puis :
               ==> Mettre en oeuvre des actions sensibilisantes pour les locataires en cas de découverte d'armes ou d'objets dangereux (sécurité, alerte, réaction…), sur les sites particulièrement touchés : orientez les locataires vers le CAARUD (annexe adresse) qui développe des actions de médiation sociale en vue de prévenir les nuisances liées à l'usage de drogues.`,
             },
             c: {
@@ -225,7 +225,7 @@ Textes {
               • Mettre en oeuvre des actions de sensibilisation sur les sites particulièrement touchés.
               • Si l’auteur des faits est identifié :
               - Dresser un procès-verbal
-              - Si vol : dépôt de plainte et engager une procédure de résiliation du bail en fonction de la situation.
+              - Si vol : dépôt de plainte et engager une procedure de résiliation du bail en fonction de la situation.
               - Demande de remboursement à l’auteur (hors quittance ?) par l’agence. voir Anne`,
                 },
                 objets: {
@@ -249,7 +249,7 @@ Textes {
               • Dresser un procès-verbal, en cas de réitération. Puis :
               • Mettre en oeuvre des actions de sensibilisation sur les sites particulièrement touchés.`,
                 },
-                procédure: `D'abord :
+                procedure: `D'abord :
 * Constater la situation : Solliciter les responsables habilités (responsables territoriaux, responsables d'agence) et prendre des photos (si vol ou dégradations).
 * Si les individus sont identifiés, un rappel du règlement intérieur doit leur être adressé, notamment en leur transmettant l'extrait relatif aux espaces communs intérieurs, qui précise que ces derniers ne peuvent être occupés de manière prolongée ni utilisés à des fins personnelles.
 Ensuite :
@@ -262,7 +262,7 @@ Ensuite :
     * Envoi d'un courrier de convocation du locataire en titre par l'agence.
     * Envoi d'un courrier de rappel du règlement au locataire en titre par l'agence.
     * Dresser un procès-verbal.
-    * Enclencher une procédure de résiliation de bail.
+    * Enclencher une procedure de résiliation de bail.
     * Demande de remboursement à l'auteur (hors quittance) par l'agence.
 Puis:
 * Mettre en œuvre des actions de sensibilisation sur les sites particulièrement touchés.`,
@@ -273,7 +273,7 @@ Puis:
                 qualification: `Lorsqu’un attroupement constitue une menace pour l’ordre public, les participants s’exposent à des sanctions. Pour un attroupement simple, les peines peuvent aller jusqu’à un an d’emprisonnement et 15 000 € d’amende. Si l’attroupement est armé ou violent, les sanctions sont plus sévères, pouvant atteindre trois ans d’emprisonnement et 45 000 € d’amende, conformément à l’article 431-4 du Code pénal.
 
               Les agressions physiques ou les actes de résistance violente envers les forces de l’ordre ou les citoyens font également l’objet de lourdes sanctions. Pour des violences légères, les peines peuvent aller jusqu’à trois ans d’emprisonnement et 45 000 € d’amende, particulièrement si elles sont commises en réunion. En cas de violences graves ayant entraîné des blessures importantes, les sanctions peuvent atteindre dix ans d’emprisonnement et 150 000 € d’amende, comme stipulé dans les articles 222-7 à 222-13 du Code pénal. `,
-                procédure: `D’abord:
+                procedure: `D’abord:
 
               Se mettre à l’abri, en sécurité, en retrait des faits. Verrouiller les locaux (loges, agences…).
 
@@ -302,7 +302,7 @@ Puis:
 
               Les troubles psychiques désignent un ensemble de pathologies ou de dysfonctionnements affectant le fonctionnement mental, émotionnel ou comportemental d'une personne (troubles de l’humeur: dépression, bipolarité / troubles anxieux/ troubles liés aux addictions / troubles psychotiques: schizophrénie / troubles neurodéveloppementaux: autisme, déficit de l’attention, hyperactivité).
 
-              Il existe deux procédures d’admission en soins psychiatriques :
+              Il existe deux procedures d’admission en soins psychiatriques :
 
               – sur décision du directeur d’établissement ;
 
@@ -310,13 +310,13 @@ Puis:
                 qualification: `Selon l'article R 635-1 du Code pénal, toute dégradation volontaire, même si elle ne cause qu’un dommage léger, est punie d’une amende prévue pour les contraventions de 5e classe: une amende qui peut atteindre jusqu’à 1 500 €.
 
               L'article 322-1 al 2 du Code pénal précise que le fait de tracer des inscriptions, signes ou dessins sur des façades, des véhicules, des voies publiques ou le mobilier urbain sans autorisation préalable est un délit puni d’une amende pouvant atteindre 3 750 € et peut entraîner une peine de travail d’intérêt général. `,
-                procédure: `D’abord: Evaluer la situation.
+                procedure: `D’abord: Evaluer la situation.
 
               Possibilité de demander une évaluation médicale: la famille peut contacter un médecin ou un psychiatre.
 
               Si la personne refuse, la famille peut demander des soins psychiatriques à la demande d’un tiers (SDT), appuyée par deux certificats médicaux.
 
-              La famille peut solliciter le maire pour enclencher une procédure de soins sans consentement.
+              La famille peut solliciter le maire pour enclencher une procedure de soins sans consentement.
 
               Ensuite: Intervention en cas de danger imminent.
 
@@ -343,7 +343,7 @@ Puis:
                   procedure: `D’abord : Prendre des mesures d’urgence en cas de danger et en préservant les traces et les indices dans la mesure du possible. Ensuite : Organiser le dépôt de plainte :
               ==> Faire immédiatement remonter l’information auprès du Manager de Proximité responsable du site afin d’organiser le dépôt de plainte.
               ==> Si l’auteur des faits n’est pas identifié, déposer une plainte simplifiée systématique après chaque incident signalé.
-              ==> Si l’auteur des faits est identifié, déposer une plainte dans laquelle la SA HLM précise son souhait de voir traiter ces faits par le biais de la médiation pénale. Ou enclencher la procédure d’assermentation.
+              ==> Si l’auteur des faits est identifié, déposer une plainte dans laquelle la SA HLM précise son souhait de voir traiter ces faits par le biais de la médiation pénale. Ou enclencher la procedure d’assermentation.
               ==> Photographier les dégâts et recueillir des témoignages. Puis : Organiser le remplacement et/ou la réparation des biens et les suites à donner :
               ==> En fonction de la gravité du dommage : déclaration du sinistre auprès de l’organisme d’assurance ;
               ==> Mettre en oeuvre des actions de sensibilisation sur les sites particulièrement touchés.
@@ -359,7 +359,7 @@ Puis:
                   qualification: `On distingue deux types de dégradations : - Les dégradations volontaires causant un dommage léger, qui constituent une contravention de 5ème classe (art. R635-1 du CP). L’amende peut aller jusqu’à 1500 €. - Les dégradations causant un dommage grave, qui sont qualifiées de délit (art. 322-1 du CP). La peine peut aller jusqu’à 2 ans d’emprisonnement et 30 000 € d’amende.`,
                   procedure: `D’abord : Prendre des mesures d’urgence en cas de danger et en préservant les traces et les indices dans la mesure du possible. Ensuite :
               ==> Faire immédiatement remonter l’information auprès du Manager de Proximité responsable du site afin d’organiser le dépôt de plainte.
-              ==> Enclencher la procédure d’assermentation.
+              ==> Enclencher la procedure d’assermentation.
               ==> Les forces de l’ordre peuvent alors venir constater les faits, il faudra alors attendre leur constatation avant d’intervenir librement sur les lieux de la dégradation.
               ==> Photographier les dégâts et recueillir des témoignages. Puis : Organiser le remplacement et/ou la réparation des biens et les suites à donner : => En fonction de la gravité du dommage : - Déclaration du sinistre auprès de l’organisme d’assurance ; => Si l’auteur des faits est locataire de la SA HLM de l’Oise : - Envoi d’un courrier de convocation du locataire en titre par l’agence ; - Envoi d’un courrier de rappel du règlement au locataire en titre par l’agence ; - Dresser un procès-verbal ; - Demande de remboursement à l’auteur (hors quittance) par l’agence.`,
                 },
@@ -384,7 +384,7 @@ Puis:
               },
             },
             _5: {
-              titre: `À l’attention des salariés (annexe : procédure « salarié agressé »)`,
+              titre: `À l’attention des salariés (annexe : procedure « salarié agressé »)`,
               agression: {
                 verbale: {
                   titre: `Agressions verbales ou écrites`,
@@ -414,13 +414,13 @@ Puis:
             titre: `Nuisances environnementales et sanitaires`,
             sa_hlm: `Constats sur le terrain avec rappel du règlement intérieur si les auteurs sontidentifiés. Nettoyage des parties communes si nécessaire. Signalement des dépôts sauvages et nuisances aux services municipaux ou forces de l’ordre.`,
             mairie: `Gestion des déchets et dépôts sauvages. Application des sanctions administratives en cas de non-respect des règles.`,
-            police: `Constatation des troubles à la tranquillité des locaux, identification des auteurs et mesures coercitives adaptées (contraventions, procédures pénales délictuelles).`,
+            police: `Constatation des troubles à la tranquillité des locaux, identification des auteurs et mesures coercitives adaptées (contraventions, procedures pénales délictuelles).`,
           },
           sonores: {
             titre: `Nuisances sonores et comportementales`,
             sa_hlm: `terrain avec rappel du règlement intérieur si les auteurs sont identifiés et que ce rappel n’expose pas les salariés à un risque. Nettoyage et remise en état des parties communes si nécessaire. Signalement auprès des forces de l’ordre (dépôt de plainte…).`,
             mairie: `Renforcement de la surveillance préventive dans les halls concernés. Évacuations des fauteurs de troubles des lieux pour ramener la tranquillité des lieux. Verbalisation par contravention le cas échéant, voire appréhension des auteurs en cas de flagrant délit pour leur présentation devant un OPJ.`,
-            police: `Constatation des troubles à la tranquillité des locaux, identification des auteurs et mesures coercitives adaptées (contraventions, procédures pénales délictuelles).`,
+            police: `Constatation des troubles à la tranquillité des locaux, identification des auteurs et mesures coercitives adaptées (contraventions, procedures pénales délictuelles).`,
           },
           stationement: {
             titre: `Stationnement et véhicules`,
@@ -432,7 +432,7 @@ Puis:
             titre: `Dégradations et actes de vandalisme`,
             sa_hlm: `Constatation sur le terrain puis signalement aux forces de l’ordre et dépôt de plainte.`,
             mairie: `Renforcement de la surveillance préventive par le biais de sa police municipale lorsqu’il en dispose d’une. Appréhension des auteurs en cas de flagrant délit et présentation devant un OPJ.`,
-            police: `Constatation de la dégradation puis ouverture d’une procédure judiciaire pour l’identification des auteurs et leur éventuelle présentation devant la justice`,
+            police: `Constatation de la dégradation puis ouverture d’une procedure judiciaire pour l’identification des auteurs et leur éventuelle présentation devant la justice`,
           },
           Violences: {
             titre: `Violences et sécurité publique`,
@@ -521,9 +521,9 @@ Puis:
               },
             },
             c: {
-              titre: `Procédures liées à la vie du bail et à la gestion de proximité (procédure TDV, procédure locataire récalcitrant à travaux, etc.)`,
-              descriptif: `Procédure salarié agressé (avec précision des 3 catégories).
-            Procédure TDV`,
+              titre: `procedures liées à la vie du bail et à la gestion de proximité (procedure TDV, procedure locataire récalcitrant à travaux, etc.)`,
+              descriptif: `procedure salarié agressé (avec précision des 3 catégories).
+            procedure TDV`,
             },
             d: {
               titre: `Soutenir les personnels de proximité par comitologie (CASSC)`,
@@ -572,8 +572,5 @@ Puis:
         },
       },
     },
-  };
-  constructor(parameters) {
-
-  }
+  },
 };
