@@ -1,0 +1,30 @@
+#spa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#spa img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#spaPC {
+  display: none;
+}
+
+#spaMobile {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #spaPC {
+    display: block;
+  }
+  #spaMobile {
+    display: none;
+  }
+}

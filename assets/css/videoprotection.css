@@ -1,0 +1,30 @@
+#videoprotection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#videoprotection img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#videoprotectionPC {
+  display: none;
+}
+
+#videoprotectionMobile {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #videoprotectionPC {
+    display: block;
+  }
+  #videoprotectionMobile {
+    display: none;
+  }
+}

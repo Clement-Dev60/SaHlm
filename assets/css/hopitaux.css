@@ -1,0 +1,30 @@
+#hopitaux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#hopitaux img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#hopitauxPC {
+  display: none;
+}
+
+#hopitauxMobile {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #hopitauxPC {
+    display: block;
+  }
+  #hopitauxMobile {
+    display: none;
+  }
+}

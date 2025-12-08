@@ -1,0 +1,30 @@
+#justice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#justice img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#justicePC {
+  display: none;
+}
+
+#justiceMobile {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #justicePC {
+    display: block;
+  }
+  #justiceMobile {
+    display: none;
+  }
+}
