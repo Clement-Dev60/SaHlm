@@ -4,25 +4,34 @@ var infos = displayInfo("Axe_II", "I", "a");
 if (infos) {
   const [axe, section, objet] = infos;
 
+  const h1 = document.createElement("div");
+  h1.id = "title";
+
+  const arrow = document.createElement("a");
+  arrow.href = "#";
+  arrow.className = "arrow";
+  const img = document.createElement("img");
+  img.src = "assets/images/retour.svg";
+  img.alt = "flèche retour";
+  arrow.appendChild(img);
+
+  h1.appendChild(arrow);
   const titre = document.createElement("h1");
   titre.textContent = objet.titre;
-  document.getElementById("videoprotection").appendChild(titre);
+  h1.appendChild(titre);
+  document.getElementById("videoprotection").appendChild(h1);
 
-  const img = document.createElement("img");
-  img.src = "assets/images/carte.png";
-  img.alt = "carte placeholder";
-  img.id = "videoprotectionPC";
-  document.getElementById("videoprotection").appendChild(img);
-  const imgPc = document.createElement("img");
-  imgPc.src = "assets/images/carteMobile.png";
-  imgPc.alt = "carte placeholder";
-  imgPc.id = "videoprotectionMobile";
-  document.getElementById("videoprotection").appendChild(imgPc);
+  const zoomLevel = 10;
+  const iframeUrl = `https://www.google.com/maps/d/embed?mid=1I8qkAF6TY3VMtPslsIXCRMM1vyNTgJk&ehbc=2E312F&noprof=1&z=${zoomLevel}&iwloc=near`;
+
+  const iframe = document.createElement("iframe");
+  iframe.src = iframeUrl;
+  iframe.classList.add("carte");
+  document.getElementById("videoprotection").appendChild(iframe);
 
   const ul = document.createElement("ul");
   ul.id = "text-videoprotection";
   document.getElementById("videoprotection").appendChild(ul);
-  console.log(objet);
 
   objet.descriptif.split(" -").forEach((ligne) => {
     if (ligne.trim() !== "") {

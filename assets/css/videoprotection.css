@@ -4,28 +4,36 @@
   align-items: center;
   width: 100%;
 }
-
-#videoprotection img {
-  width: 80%;
-  height: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+.arrow img {
+  width: 32px;
+  height: 32px;
 }
 
-#videoprotectionPC {
-  display: none;
-  max-height: 650px;
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carte {
+  display: flex;
+  width: 359px;
+  height: 522px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
-#videoprotectionMobile {
-  display: block;
+#title h1 {
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
-  #videoprotectionPC {
-    display: block;
+  .carte {
+    width: 1300px;
+    height: 500px;
+    border: none;
   }
-  #videoprotectionMobile {
+  .arrow {
     display: none;
   }
 }

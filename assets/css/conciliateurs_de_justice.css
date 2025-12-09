@@ -1,9 +1,10 @@
-#spa {
+#justice not:first-child {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
+
 .arrow img {
   width: 32px;
   height: 32px;

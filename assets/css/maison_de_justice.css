@@ -5,27 +5,36 @@
   width: 100%;
 }
 
-#justice img {
-  width: 80%;
-  height: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+.arrow img {
+  width: 32px;
+  height: 32px;
 }
 
-#justicePC {
-  display: none;
-  max-height: 650px;
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carte {
+  display: flex;
+  width: 359px;
+  height: 522px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
-#justiceMobile {
-  display: block;
+#title h1 {
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
-  #justicePC {
-    display: block;
+  .carte {
+    width: 1300px;
+    height: 500px;
+    border: none;
   }
-  #justiceMobile {
+  .arrow {
     display: none;
   }
 }
