@@ -463,7 +463,7 @@ Puis:
           contenu: {
             a: {
               titre: "Vidéoprotection",
-              descriptif: `-Creil : 144 Rue J-B Carpeaux (2 ext, 14 int (dont 2 de l’agence)), 84 Rue J-B Carpeaux (2 ext, 13 int), 98 Rue J-B Carpeaux (2 ext, 12 int).
+              descriptif: ` -Creil : 144 Rue J-B Carpeaux (2 ext, 14 int (dont 2 de l’agence)), 84 Rue J-B Carpeaux (2 ext, 13 int), 98 Rue J-B Carpeaux (2 ext, 12 int).
               -Montataire : 38 Rue Colonel Fabien (6 int), 40 Rue Colonel Fabien (6 int), 42 Rue Colonel Fabien (6 int).
               -Beauvais : Siège (28 Rue Gambetta 60000 Beauvais – 1 caméra intérieur), Rue Ella Fitzgerald ( B1 : 2 int, 1 ext / B3 : 2 ext / B5 : 5 int, 1 ext), Rue des Vignes (A23 : 2 int / A25 : 5 int / A27 : 2 int / A29 : 2 int / A33 : 2 int / A35 : 2 int) Rue Billie Holiday (C1 : 2 int, 1 ext / C3 : 2 int / C5 : 2 int, 1 ext), Rue du Languedoc (Agence : 2 int, 2 ext / Tour A5 : 1 ext, 6 int).
               -Compiègne : 1 square Jacques Germain Soufflot (2 int, 4 ext (agence))`,
@@ -474,7 +474,7 @@ Puis:
               contenu: {
                 un: {
                   titre: `Hôpitaux et structures de soins`,
-                  descriptif: `-Centre Hospitalier Simone Veil de Beauvais, 40 avenue Léon Blum 60021 Beauvais 03 44 11 21 21 + Équipe de Liaison et de Soins en Addictologie (ELSA) – Centre Hospitalier Simone Veil de Beauvais, 03 44 11 21 13 elsa@ch-beauvais.fr du lundi au vendredi, de 9h à 16h30 + Service social – Centre Hospitalier Simone Veil de Beauvais, 03 44 11 20 74
+                  descriptif: ` -Centre Hospitalier Simone Veil de Beauvais, 40 avenue Léon Blum 60021 Beauvais 03 44 11 21 21 + Équipe de Liaison et de Soins en Addictologie (ELSA) – Centre Hospitalier Simone Veil de Beauvais, 03 44 11 21 13 elsa@ch-beauvais.fr du lundi au vendredi, de 9h à 16h30 + Service social – Centre Hospitalier Simone Veil de Beauvais, 03 44 11 20 74
               -Groupe Hospitalier Public du Sud de l'Oise – GHPSO (site de Senlis), Avenue du Docteur Paul Rougé 60309 Senlis 03 44 21 71 00
               -Centre Hospitalier Bertinot-Juel, 34 B rue Pierre Budin 60240 Chaumont-en-Vexin 03 44 49 54 54
               -Centre Hospitalier Général de Clermont, Rue Frédéric Raboisson 60600 Clermont 03 44 77 33 00
@@ -490,13 +490,13 @@ Puis:
                 },
                 deux: {
                   titre: `Maison de Justice et du Droit`,
-                  descriptif: `-MJD de Méru et du Vexin-Thelle-Sablons : Rues Dr Graillon et Louis Bloquet, 60110 Meru. mjd-meru@justice.fr / mjd-meru@orange.fr Tel : 0344523390 Fax : 0344523399.
+                  descriptif: ` -MJD de Méru et du Vexin-Thelle-Sablons : Rues Dr Graillon et Louis Bloquet, 60110 Meru. mjd-meru@justice.fr / mjd-meru@orange.fr Tel : 0344523390 Fax : 0344523399.
                 -Noyon : Espace Jaurès, 11 Rue Albert de Mun, 60400 Noyon. mjd-noyon@justice.fr 0365350430.
                 -Creil : 26 Rue Voltaire, 60100 Creil. MJD@creilsudoise.fr Tel : 0344644670 Fax : 0344644678.`,
                 },
                 trois: {
                   titre: `Conciliateurs de justice`,
-                  descriptif: `-Beauvais : Patrick Chevalier 06 62 71 47 20 patrick.chevalier@conciliateurdejustice.fr
+                  descriptif: ` -Beauvais : Patrick Chevalier 06 62 71 47 20 patrick.chevalier@conciliateurdejustice.fr
                 -Creil/Nogent-sur-Oise/Montataire : Raymond Domptail 03 44 64 46 70 (Creil) 03 44 66 30 30 (Nogent-sur-Oise) 03 44 64 44 33 (Nogent-sur-oise) raymond.domptail@conciliateurdejustice.fr
                 -Auneuil : Marie-Claude Mabille 03 44 47 70 23 marie-claude.mabille@conciliateurdejustice.fr
                 -Saint-Just-en-Chaussée : Françoise Salome 03 44 19 29 29 francoise.salome@conciliateurdejustice.fr
@@ -511,7 +511,7 @@ Puis:
                 },
                 quatre: {
                   titre: `SPA, refuges, associations pour animaux`,
-                  descriptif: `-SPA d’Essuilet et de l’Oise : Ferme d’Essuilet, 60510 Essuiles 03 44 48 02 50
+                  descriptif: ` -SPA d’Essuilet et de l’Oise : Ferme d’Essuilet, 60510 Essuiles 03 44 48 02 50
                 -SPA de Compiègne : 2 Avenue de l’Armistice, 60200 Compiègne 03 44 40 21 20
                 -Fondation Clara Beauvais : 55 Chemin de la Cavée aux Pierres, 60000 Beauvais 03 44 08 42 85
                 -Les Toutous & Matous de la 2è Chance : 26 Rue de l’Éventail, 60730 Sainte-Geneviève 06 66 46 38 95

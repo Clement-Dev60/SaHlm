@@ -9,25 +9,28 @@ if (infos) {
   document.getElementById("videoprotection").appendChild(titre);
 
   const img = document.createElement("img");
-  img.src = "assets/images/cartePlaceholderPC.svg";
+  img.src = "assets/images/carte.png";
   img.alt = "carte placeholder";
   img.id = "videoprotectionPC";
   document.getElementById("videoprotection").appendChild(img);
   const imgPc = document.createElement("img");
-  imgPc.src = "assets/images/cartePlaceholder.svg";
+  imgPc.src = "assets/images/carteMobile.png";
   imgPc.alt = "carte placeholder";
   imgPc.id = "videoprotectionMobile";
   document.getElementById("videoprotection").appendChild(imgPc);
 
-  objet.descriptif
-    .split(" -")
-    .map((ligne) => ligne.trim())
-    .filter((ligne) => ligne !== "")
-    .forEach((ligne) => {
-      const text = document.createElement("p");
-      text.textContent = ligne;
-      document.getElementById("videoprotection").appendChild(text);
-    });
+  const ul = document.createElement("ul");
+  ul.id = "text-videoprotection";
+  document.getElementById("videoprotection").appendChild(ul);
+  console.log(objet);
+
+  objet.descriptif.split(" -").forEach((ligne) => {
+    if (ligne.trim() !== "") {
+      const li = document.createElement("li");
+      li.textContent = ligne.trim();
+      document.getElementById("text-videoprotection").appendChild(li);
+    }
+  });
 } else {
   console.log("Aucune information trouvée ou une erreur est survenue.");
 }

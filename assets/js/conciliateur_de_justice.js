@@ -10,21 +10,25 @@ if (infos) {
   document.getElementById("justice").appendChild(titre);
 
   const img = document.createElement("img");
-  img.src = "assets/images/cartePlaceholderPC.svg";
+  img.src = "assets/images/carte.png";
   img.alt = "carte placeholder";
   img.id = "justicePC";
   document.getElementById("justice").appendChild(img);
   const imgPc = document.createElement("img");
-  imgPc.src = "assets/images/cartePlaceholder.svg";
+  imgPc.src = "assets/images/carteMobile.png";
   imgPc.alt = "carte placeholder";
   imgPc.id = "justiceMobile";
   document.getElementById("justice").appendChild(imgPc);
 
+  const ul = document.createElement("ul");
+  ul.id = "text-justice";
+  document.getElementById("justice").appendChild(ul);
+
   objet.contenu.trois.descriptif.split(" -").forEach((ligne) => {
     if (ligne.trim() !== "") {
-      const p = document.createElement("p");
-      p.textContent = ligne.trim();
-      document.getElementById("justice").appendChild(p);
+      const li = document.createElement("li");
+      li.textContent = ligne.trim();
+      document.getElementById("text-justice").appendChild(li);
     }
   });
 } else {

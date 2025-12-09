@@ -10,21 +10,24 @@ if (infos) {
   document.getElementById("spa").appendChild(titre);
 
   const img = document.createElement("img");
-  img.src = "assets/images/cartePlaceholderPC.svg";
+  img.src = "assets/images/carte.png";
   img.alt = "carte placeholder";
   img.id = "spaPC";
   document.getElementById("spa").appendChild(img);
   const imgPc = document.createElement("img");
-  imgPc.src = "assets/images/cartePlaceholder.svg";
+  imgPc.src = "assets/images/carteMobile.png";
   imgPc.alt = "carte placeholder";
   imgPc.id = "spaMobile";
   document.getElementById("spa").appendChild(imgPc);
+  const ul = document.createElement("ul");
+  ul.id = "text-spa";
+  document.getElementById("spa").appendChild(ul);
 
   objet.contenu.quatre.descriptif.split(" -").forEach((ligne) => {
     if (ligne.trim() !== "") {
-      const p = document.createElement("p");
-      p.textContent = ligne.trim();
-      document.getElementById("spa").appendChild(p);
+      const li = document.createElement("li");
+      li.textContent = ligne.trim();
+      document.getElementById("text-spa").appendChild(li);
     }
   });
 } else {

@@ -14,6 +14,7 @@
 
 #justicePC {
   display: none;
+  max-height: 650px;
 }
 
 #justiceMobile {
