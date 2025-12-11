@@ -8,7 +8,7 @@ if (infos) {
   h1.id = "title";
 
   const arrow = document.createElement("a");
-  arrow.href = "#";
+  arrow.href = "../../cartographie.html";
   arrow.className = "arrow";
   const img = document.createElement("img");
   img.src = "assets/images/retour.svg";
@@ -27,7 +27,7 @@ if (infos) {
   const iframe = document.createElement("iframe");
   iframe.src = iframeUrl;
   iframe.classList.add("carte");
-  document.getElementById("justice").appendChild(iframe);
+  document.getElementById("spa").appendChild(iframe);
 
   const ul = document.createElement("ul");
   ul.id = "text-spa";

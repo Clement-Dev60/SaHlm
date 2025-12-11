@@ -7,7 +7,7 @@ if (infos) {
   h1.id = "title";
 
   const arrow = document.createElement("a");
-  arrow.href = "#";
+  arrow.href = "../../cartographie.html";
   arrow.className = "arrow";
   const img = document.createElement("img");
   img.src = "assets/images/retour.svg";
