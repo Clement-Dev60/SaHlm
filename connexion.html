@@ -12,18 +12,23 @@
 <body>
     <div class="login-container">
         <img class="logo-connect" src="assets/images/logo sa gris.png" alt="">
-        <form class="loginForm">
-            <label>Identifiant:</label>
-            <input type="text">
 
-            <label style="margin-top:30px;">Mot de passe:</label>
-            <input type="password">
+        <form class="loginForm" id="loginForm">
 
-            <button>Se connecter</button>
+            <label>Identifiant :</label>
+            <input id="mail" type="text">
+
+            <div class="error" id="msg"></div>
+            <label style="margin-top:30px;">Mot de passe :</label>
+            <input id="pwd" type="password">
+
+            <div class="error" id="msg2"></div>
+
+            <button type="submit">Se connecter</button>
         </form>
     </div>
-    <div id="msg"></div>
+
+    <script src="assets/js/connexion.js"></script>
 </body>
-<script src="assets/js/connexion.js"></script>
 
 </html>

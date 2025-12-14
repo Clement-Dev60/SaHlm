@@ -6,7 +6,7 @@ export const text = {
       sections: {
         _1: {
           titre:
-            "Les atteintes à la tranquillité des espaces collectifs : environnement, propreté et nuisance",
+            "Les atteintes à la tranquillité des espaces collectifs",
           contenu: {
             a: {
               titre:

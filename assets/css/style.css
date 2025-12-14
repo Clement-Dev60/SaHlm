@@ -18,8 +18,8 @@
 	--apple-green: #97bf0d;
 	/* Taille de typo */
 	--title-desktop: 32px;
-	--title: 24px;
-	--title2: 20px;
+	--title-mobile: 24px;
+	--title2-mobile: 20px;
 	--paragraph: 16px;
 	--subtitle: 12px;
 	/* Graisse de texte */
@@ -30,7 +30,7 @@
 }
 
 body {
-	font-family: "Verdana, Geneva, Tahoma, sans-serif";
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	min-height: 100vh;
 	margin: 0;
 }
@@ -58,48 +58,56 @@ p {
 }
 .accordion {
 	width: 100%;
-	max-width: 100%;
+	max-width: 420px;
 	margin: 20px auto;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	box-shadow: 2px 2px 1px rgb(0 0 0 / 50%);
+	border-radius: 16px;
+	overflow: hidden;
 }
 
+/* ENFANT */
 .accordion-item {
-	border-bottom: 1px solid #ddd;
+	background-color: var(--green);
+	border-radius: 20px;
+	margin: 12px 16px;
+	overflow: hidden; /* très important */
 }
+
+.accordion-header.child {
+	background-color: var(--green);
+	font-weight: var(--semi-bold);
+	border-radius: 20px;
+}
+
 
 .accordion-header {
+	padding: 18px 20px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #f1f1f1;
-	padding: 12px;
 	cursor: pointer;
-	font-weight: bold;
 }
 
-.accordion-header:hover {
-	background-color: #b6b6b6;
+.accordion-item + .accordion-item .accordion-header {
+	border-top: 2px solid rgba(255, 255, 255, 0.4);
 }
 
-.accordion-content {
-	max-height: 0;
-	overflow: hidden;
-	padding: 0 12px;
-	transition: max-height 0.4s ease, padding 0.3s ease;
-	font-size: var(--paragraph-mobile);
+.accordion-content p {
+	color: white;
 }
 
-.accordion-header.active + .accordion-content {
-	max-height: 300px;
-	padding: 12px;
+.left {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	border-radius: 16px;
 }
 
 .icon {
-	width: 18px;
+	width: 38px;
 	height: auto;
 }
+
+
 .bottom-nav {
 	position: fixed;
 	bottom: 4%;
@@ -199,7 +207,7 @@ p {
 }
 
 .desktop-menu {
-    display: none;
+	display: none;
 }
 
 @media (min-width: 600px) {
@@ -223,11 +231,6 @@ p {
 
 	.accordion-content {
 		padding: 0 15px;
-	}
-
-	.accordion-header.active + .accordion-content {
-		max-height: 350px;
-		padding: 15px;
 	}
 
 	.icon {
@@ -261,11 +264,6 @@ p {
 		padding: 0 18px;
 	}
 
-	.accordion-header.active + .accordion-content {
-		max-height: 400px;
-		padding: 18px;
-	}
-
 	img {
 		width: 22px;
 	}
@@ -273,78 +271,77 @@ p {
 		display: none;
 	}
 	.top-nav {
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 12px 40px;
-        height: 65px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    }
-    
-    .logo {
-        width: 80px;
-        height: auto;
-    }
-    
-    .nav-text {
-        color: var(--green);
-        margin: 0;
-        padding: 0;
-        font-size: 1.2rem;
-        line-height: 1.2;
-    }
-    
-    .left {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        padding: 0;
-    }
+		background-color: white;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 12px 40px;
+		height: 65px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	}
 
-    .desktop-menu {
-        display: flex;
-        align-items: center;
-        gap: 55px; 
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        padding-left: 10%;
-    }
-    
-    .desktop-menu li a {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        text-decoration: none;
-        color: var(--green);
-        font-size: 1.15rem;
-    }
-    
-    .desktop-menu li a:hover {
-        opacity: 0.7;
-    }
-    
-    .desktop-menu img {
-        width: 24px;
-        height: 24px;
-    }
-    
-    .right {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        padding-right: 20px;
-        padding-bottom: 6.7%;
-    }
-    
-    .person {
-        width: 40px;
-        height: auto;
-        border: 2px solid var(--green);
-        border-radius: 50%;
-        padding: 6px;
-    }
-    
+	.logo {
+		width: 80px;
+		height: auto;
+	}
+
+	.nav-text {
+		color: var(--green);
+		margin: 0;
+		padding: 0;
+		font-size: 1.2rem;
+		line-height: 1.2;
+	}
+
+	.left {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		padding: 0;
+	}
+
+	.desktop-menu {
+		display: flex;
+		align-items: center;
+		gap: 55px;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		padding-left: 10%;
+	}
+
+	.desktop-menu li a {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		text-decoration: none;
+		color: var(--green);
+		font-size: 1.15rem;
+	}
+
+	.desktop-menu li a:hover {
+		opacity: 0.7;
+	}
+
+	.desktop-menu img {
+		width: 24px;
+		height: 24px;
+	}
+
+	.right {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: auto;
+		padding-right: 20px;
+		padding-bottom: 6.7%;
+	}
+
+	.person {
+		width: 40px;
+		height: auto;
+		border: 2px solid var(--green);
+		border-radius: 50%;
+		padding: 6px;
+	}
 }
