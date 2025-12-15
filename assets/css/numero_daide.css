@@ -1,0 +1,243 @@
+.urgences {
+    height: 59px;
+    width: 225px;
+    border: solid 1px #99121a;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hopitaux {
+    height: 59px;
+    width: 225px;
+    border: solid 1px #1BBBE9;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.justice {
+    height: 59px;
+    width: 225px;
+    border: solid 1px #000000;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.specifique {
+    height: 59px;
+    width: 225px;
+    border: solid 1px #41A62A;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.specifique img {
+    width: 7.13px;
+    height: 12.97px;
+}
+
+.justice img {
+    width: 7.13px;
+    height: 12.97px;
+}
+
+.hopitaux img {
+    width: 7.13px;
+    height: 12.97px;
+}
+
+.urgences img {
+    width: 7.13px;
+    height: 12.97px;
+}
+
+.specifique p {
+    font-size: var(--paragraph);
+    color: #41A62A;
+}
+
+.justice p {
+    font-size: var(--paragraph);
+    color: #000000;
+
+}
+
+.hopitaux p {
+    font-size: var(--paragraph);
+    color: #1BBBE9;
+
+}
+
+.urgences p {
+    font-size: var(--paragraph);
+    color: #99121a;
+
+}
+
+.titre p {
+    font-size: var(--title);
+    font-weight: bold;
+}
+
+.les_numero {
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.titre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* centre le texte */
+    position: relative;
+    /* permet d’ajouter un faux espace */
+    height: 25vw;
+}
+
+.titre img {
+    position: absolute;
+
+    left: 15px;
+    height: 30px;
+    width: 25px;
+    /* image collée à gauche */
+
+}
+
+.titre p {
+    text-align: center;
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .urgences {
+        height: 81.04px;
+        width: 444.03px;
+        border: solid 2px #99121a;
+        border-radius: 19px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .hopitaux {
+        height: 81.04px;
+        width: 444.03px;
+        border: solid 2px #1BBBE9;
+        border-radius: 19px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .justice {
+        height: 81.04px;
+        width: 444.03px;
+        border: solid 2px #000000;
+        border-radius: 19px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .specifique {
+        height: 81.04px;
+        width: 444.03px;
+        border: solid 2px #41A62A;
+        border-radius: 19px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .specifique img {
+        width: 7.13px;
+        height: 12.97px;
+    }
+
+    .justice img {
+        width: 7.13px;
+        height: 12.97px;
+    }
+
+    .hopitaux img {
+        width: 7.13px;
+        height: 12.97px;
+    }
+
+    .urgences img {
+        width: 7.13px;
+        height: 12.97px;
+    }
+
+    .specifique p {
+        font-size: var(--title);
+        color: #41A62A;
+    }
+
+    .justice p {
+        font-size: var(--title);
+        color: #000000;
+
+    }
+
+    .hopitaux p {
+        font-size: var(--title);
+        color: #1BBBE9;
+
+    }
+
+    .urgences p {
+        font-size: var(--title);
+        color: #99121a;
+
+    }
+
+    .titre p {
+        font-size: var(--title-desktop);
+        font-weight: bold;
+    }
+
+    .les_numero {
+        height: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+    .titre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* centre le texte */
+
+        height: 15vw;
+    }
+
+    .titre img {
+        display: none;
+
+    }
+
+    .titre p {
+        text-align: center;
+
+    }
+}

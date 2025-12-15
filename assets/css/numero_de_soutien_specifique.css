@@ -1,0 +1,109 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.right,
+.left {
+  padding: 0 20px;
+  align-items: center;
+  margin: 0;
+}
+.nav-text {
+  padding: 0;
+  display: none;
+}
+p {
+  color: inherit;
+}
+.content p {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title svg {
+  width: 10%;
+}
+.title > div {
+  width: 10%;
+}
+h1 {
+  color: var(--green);
+  font-size: var(--title);
+}
+a {
+  text-decoration: none;
+  color: var(--green);
+}
+.content {
+  display: flex;
+  height: 90vh;
+  padding: 50px 0 150px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.phoneNumbers {
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  width: 80%;
+  height: 100%;
+  border-style: solid;
+  border-color: var(--green);
+  border-width: 3px;
+  border-radius: 20px;
+}
+.telNumber > div {
+  width: 40px;
+  padding: 0 20px;
+}
+.telNumber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.telNumber img {
+  width: 40px;
+  padding: 0 20px;
+}
+.topNumber {
+  border-top: 3px solid var(--green);
+}
+.bottomNumber {
+  border-bottom: 3px solid var(--green);
+}
+.middleNumber {
+  border-top: 3px solid var(--green);
+  border-bottom: 3px solid var(--green);
+}
+@media (min-width: 600px) {
+  .title {
+    margin: 1vw 0;
+  }
+  h1 {
+    font-size: var(--title-desktop);
+  }
+}
+
+@media (min-width: 900px) {
+  .right {
+    padding: 0 30px;
+  }
+  .nav-text {
+    display: block;
+  }
+  .phoneNumbers {
+    width: 40%;
+  }
+  .title svg,
+  .title div {
+    display: none;
+  }
+}

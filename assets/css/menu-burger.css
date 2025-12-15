@@ -1,0 +1,23 @@
+#overlay {
+  display: none;
+  height: max-content;
+}
+#overlay ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 10vw;
+}
+#overlay a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#overlay img {
+  width: 10%;
+  padding-right: 5%;
+}
+#overlay p {
+  padding-left: 5%;
+  color: white;
+  font-size: var(--title);
+}

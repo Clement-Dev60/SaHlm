@@ -53,6 +53,12 @@ p {
 	font-weight: var(--regular);
 }
 
+li {
+	color: var(--green);
+	font-size: var(--subtitle);
+	font-weight: var(--regular);
+  }
+  
 .test {
 	padding: 15px;
 }

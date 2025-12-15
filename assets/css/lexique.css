@@ -1,0 +1,108 @@
+#h1 {
+    position: relative;         /* permet d'absolutiser la flèche sans casser le flux */
+    display: flex;
+    justify-content: center;    /* centre le h1 */
+    align-items: center;
+    padding: 0.5rem 1rem;      /* ajustable */
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+#h1 .back {
+  position: absolute;
+  left: 1rem;                 /* espace depuis le bord gauche */
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#h1 h1 {
+  margin: 0;
+  font-size: clamp(1rem, 4vw, 1.6rem); /* responsive : entre 1rem et 1.6rem */
+  text-align: center;
+  pointer-events: none; /* optionnel : évite que clic sur centre perturbe le lien gauche */
+}
+#h1 .back img {
+  display: block;
+  width: 30px;   /* ou adapter */
+  height: auto;
+  padding: 6px;  /* zone cliquable plus grande */
+}
+
+#lexique{
+    position: relative;         /* permet d'absolutiser la flèche sans casser le flux */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.lexique {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 30px;
+  margin-bottom: 20px;
+  width: 250px;       
+  
+  margin-left: auto;  
+  margin-right: auto;
+  box-shadow: 0 3px 6px var(--black);
+}
+.lexique p{
+  font-size: 16px;
+  color: var(--black);
+}
+
+@media (min-width: 600px) {
+  #h1 .back img{
+    display: none;
+  }
+  #lexique {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 colonnes */
+    gap: 30px; /* espace entre les blocs */
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    right: 10px;
+    padding-top: 5rem;
+    padding-bottom: 20px;
+}
+
+.lexique {
+    border: 2px solid var(--black);
+    border-radius: 20px;        
+    padding: 10px 20px;         
+    height: 60px;               
+    display: flex;
+    align-items: center;       
+    font-size: var(--paragraph);
+    background: #fff;
+}
+}
+@media (min-width: 900px) {
+    #lexique {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 30px; /* espace entre les blocs */
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    right: 10px;
+    padding-top: 5rem;
+    padding-bottom: 20px;
+}
+
+.lexique {
+    border: 2px solid #000;
+    border-radius: 20px;        
+    padding: 10px 20px;         
+    height: 60px;               
+    display: flex;
+    align-items: center;       
+    font-size: 14px;
+    background: #fff;
+}
+}

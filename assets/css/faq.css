@@ -1,0 +1,97 @@
+.accordeon .item {
+  margin-bottom: 12px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.question {
+  width: 100%;
+  background: var(--green);
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.icon-left {
+  margin-right: 10px;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  background: #f9f9f9;
+  border-radius: 14px;
+  padding: 0 15px;
+  color: #333;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+}
+
+.answer.open {
+  padding: 15px;
+}
+.icon-right {
+  width: 22px;
+  height: 22px;
+  transition: transform 0.35s ease;
+}
+
+/* Si tu veux que l’icône tourne */
+.question.open-btn .icon-right {
+  transform: rotate(180deg);
+}
+
+#h1 {
+    position: relative;         /* permet d'absolutiser la flèche sans casser le flux */
+    display: flex;
+    justify-content: center;    /* centre le h1 */
+    align-items: center;
+    padding: 0.5rem 1rem;      /* ajustable */
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#h1 .back {
+  position: absolute;
+  left: 1rem;                 /* espace depuis le bord gauche */
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#h1 h1 {
+  margin: 0;
+  font-size: clamp(1rem, 4vw, 1.6rem); /* responsive : entre 1rem et 1.6rem */
+  text-align: center;
+  pointer-events: none; /* optionnel : évite que clic sur centre perturbe le lien gauche */
+}
+#h1 .back img {
+  display: block;
+  width: 30px;   /* ou adapter */
+  height: auto;
+  padding: 6px;  /* zone cliquable plus grande */
+}
+@media (min-width: 600px) {
+  #h1 .back img{
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .accordeon .item {
+  margin-left: 24rem;
+  margin-right: 24rem;
+}
+}

@@ -1,12 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/numero_urgence.css" />
+    <link rel="stylesheet" href="assets/css/menu-burger.css">
     <title>Numéros d'urgence</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav class="top-nav">
+      <div class="left">
+        <a href="index.html"
+          ><img class="logo" src="assets/images/Logo.svg" alt=""
+        /></a>
+        <p class="nav-text">
+          S.A.HLM <br />
+          du département de l'Oise
+        </p>
+      </div>
+      <ul class="desktop-menu">
+        <li>
+          <a href="#"><img src="assets/images/faq.svg" alt="" />FAQ</a>
+        </li>
+        <li>
+          <a href="#"><img src="assets/images/lexique.svg" alt="" />Lexique</a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="assets/images/telephone.svg" alt="" />Numéros d’aide</a
+          >
+        </li>
+        <li>
+          <a href="#"><img src="assets/images/map.svg" alt="" />Cartographie</a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="assets/images/historique.svg" alt="" />Historique</a
+          >
+        </li>
+      </ul>
+      <div class="right">
+        <img class="person" src="assets/images/person.svg" alt="" />
+      </div>
+    </nav>
+    <nav class="bottom-nav" id="bottom-nav">
+      <a class="nav-item">
+        <div class="home">
+          <img src="assets/images/appareil photo.svg" alt="Home" />
+          <p class="accueil">Signaler un trouble</p>
+        </div>
+      </a>
+      <a class="nav-item" id="opn-burger"
+        ><img src="assets/images/menu-01.svg" alt="Burger"
+      /></a>
+    </nav>
+    <main id="content">
+      <div class="title">
+        <svg
+          width="21"
+          height="36"
+          viewBox="0 0 21 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.3787 33L4.49998 20.1213C3.49998 19.1213 2.99998 18.6213 2.99998 18C2.99998 17.3787 3.49998 16.8787 4.49998 15.8787L17.3787 3"
+            stroke="var(--cherry)"
+            stroke-width="6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <h1>NUMÉRO D'URGENCE</h1>
+        <div></div>
+      </div>
+      <div class="content">
+        <div class="phoneNumbers">
+          <div class="telNumber">
+            <div></div>
+            <a href="tel:+">15 (SAMU)</a
+            ><img src="assets/images/redPhone.svg" alt="redPhone" />
+          </div>
+          <div class="middleNumber telNumber">
+            <div></div>
+            <a href="tel:+">17 (Police / Gendarmerie)</a
+            ><img src="assets/images/redPhone.svg" alt="redPhone" />
+          </div>
+          <div class="telNumber">
+            <div></div>
+            <a href="tel:+">18 (Pompier)</a
+            ><img src="assets/images/redPhone.svg" alt="redPhone" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="overlay">
+      <ul>
+        <li>
+          <a href="faq.html">
+            <img src="assets/images/faqWhite.svg" alt="FAQ">
+            <p>FAQ</p>
+          </a>
+        </li>
+        <li>
+          <a href="lexique.html">
+            <img src="assets/images/lexiqueWhite.svg" alt="Lexique">
+            <p>Lexique</p>
+          </a>
+        </li>
+        <li>
+          <a href="numero_d'aide.html">
+            <img src="assets/images/phoneWhite.svg" alt="Numero d'aide">
+            <p>Numero d'aide</p>
+          </a>
+        </li>
+        <li>
+          <a href="cartographie.html">
+            <img src="assets/images/cartographieWhite.svg" alt="Cartographie">
+            <p>Cartographie</p>
+          </a>
+        </li>
+        <li>
+          <a href="historique.html">
+            <img src="assets/images/historiqueWhite.svg" alt="Historique">
+            <p>Historique</p>
+          </a>
+        </li>
+    </div>
+  </body>
+  <script src="assets/js/menu-burger.js"></script>
 </html>
